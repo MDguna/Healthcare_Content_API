@@ -12,7 +12,7 @@ diagnosis name or code for ICD9 and ICD10, </br>
 procedure name or code for ICD9 and ICD10, </br>
 MSDRG name and code, </br>
 HCPCS name and code, </br>
-LOINC descprtions with code, </br>
+LOINC descriptions with code, </br>
 RxNorm details,</br>
 and HCUPS Clinical Classification details.</br>
 
