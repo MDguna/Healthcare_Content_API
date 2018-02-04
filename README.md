@@ -7,7 +7,8 @@ CCS. This platform provides APIs for ICD9 and ICD10 versions. </br>
 MDguna would like to make it easy for developers to refrence helalthcare content with less or no effort. </br>
 These APIs help developers and startups to focus on application rather than putting together content. </br>
 
-</br><b>With the help of these APIs, you can find </b></br>
+# Conent Types
+With the help of these APIs, you can find </br>
 diagnosis name or code for ICD9 and ICD10, </br>
 procedure name or code for ICD9 and ICD10, </br>
 MSDRG name and code, </br>
@@ -19,13 +20,15 @@ and HCUPS Clinical Classification details.</br>
 You can also find content mapaping for </br>
 MSDRG and ICD9 / ICD10, </br>
 HCUPS CCS and ICD9 / ICD10, and many more to come in the future. </br>
- 
+
+# Test
 You can test the API on our <a href="http://mdguna.com/#/page-API">website.</a></br>
 
 ![ICD9 diagnosis search example](https://github.com/MDguna/Healthcare_Content_API/blob/master/images/diag_test.png)
 
 ![ICD9 diagnosis output example](https://github.com/MDguna/Healthcare_Content_API/blob/master/images/diag_output.png)
 
+# How to use it
 Please refer to section below for guidelines on how to utilize the API.</br>
 Base url: http://mdguna-env.qn5jr2pkqm.us-east-1.elasticbeanstalk.com/API </br>
 Paramerts: </br>
@@ -39,3 +42,11 @@ Output contains list of code and name vlaue pairs.
 
 To seaarch an ICD9 diagnosis by name that contains Abdominal </br>
 http://mdguna-env.qn5jr2pkqm.us-east-1.elasticbeanstalk.com/API/diagnosis/ICD9/name/contains/abdominal </br>
+
+# Additional Information
+MDguna APIs available under MIT license. We have plans to add additional content to our APIs in
+the coming months. Also, we are planning to release FHIR integration APIs so that developers
+can integrate their FHIR apps seamlessly with EMRs scuh as Cerner, EPIC, AthenaHealth, and so
+on.
+
+Please contact us if you have any questions or need additonal information.
