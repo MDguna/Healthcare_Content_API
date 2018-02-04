@@ -20,8 +20,11 @@ You can also find content mapaping for </br>
 MSDRG and ICD9 / ICD10, </br>
 HCUPS CCS and ICD9 / ICD10, and many more to come in the future. </br>
  
-You can test the API on our <a href="http://localhost:8100/#/page-API">website.</a></br>
+You can test the API on our <a href="http://mdguna.com/#/page-API">website.</a></br>
 
+![ICD9 diagnosis search example](https://github.com/MDguna/Healthcare_Content_API/blob/master/images/diag_test.png)
+
+![ICD9 diagnosis output example](https://github.com/MDguna/Healthcare_Content_API/blob/master/images/diag_output.png)
 
 Please refer to section below for guidelines on how to utilize the API.</br>
 Base url: http://mdguna-env.qn5jr2pkqm.us-east-1.elasticbeanstalk.com/API </br>
@@ -31,6 +34,8 @@ Paramerts: </br>
 3. <b>Search BY:</b> name, code
 4. <b>Search Type:</b> contains, begins with, ends with
 5. <b>Search String:</b> text
+
+Output contains list of code and name vlaue pairs.
 
 To seaarch an ICD9 diagnosis by name that contains Abdominal </br>
 http://mdguna-env.qn5jr2pkqm.us-east-1.elasticbeanstalk.com/API/diagnosis/ICD9/name/contains/abdominal </br>
