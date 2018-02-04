@@ -30,7 +30,7 @@ Please refer to section below for guidelines on how to utilize the API.</br>
 Base url: http://mdguna-env.qn5jr2pkqm.us-east-1.elasticbeanstalk.com/API </br>
 Paramerts: </br>
 1. <b>Contennt Type:</b> diagnosis, procedure, MSDRG, HCPCS
-2. <b>Version:</b> ICD9, ICD10, None
+2. <b>Version:</b> ICD9, ICD10, NA
 3. <b>Search BY:</b> name, code
 4. <b>Search Type:</b> contains, begins with, ends with
 5. <b>Search String:</b> text
