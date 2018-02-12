@@ -30,7 +30,7 @@ You can test the API on our <a href="http://mdguna.com/#/page-API">website.</a><
 
 # How to use it
 Please refer to section below for guidelines on how to utilize the API.</br>
-Base url: http://mdguna-env.qn5jr2pkqm.us-east-1.elasticbeanstalk.com/API </br>
+Base url: http://service.mdguna.com/API </br>
 Paramerts: </br>
 1. <b>Contennt Type:</b> diagnosis, procedure, MSDRG, HCPCS
 2. <b>Version:</b> ICD9, ICD10, NA
@@ -41,7 +41,7 @@ Paramerts: </br>
 Output contains list of code and name vlaue pairs.
 
 To seaarch an ICD9 diagnosis by name that contains Abdominal </br>
-http://mdguna-env.qn5jr2pkqm.us-east-1.elasticbeanstalk.com/API/diagnosis/ICD9/name/contains/abdominal </br>
+http://service.mdguna.com/API/diagnosis/ICD9/name/contains/abdominal </br>
 
 # Additional Information
 MDguna APIs available under MIT license. We have plans to add additional content to our APIs in
